@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #914d00;
+  --color-primary-container: #f28c28;
+  --color-surface: #fef8f5;
+  --color-on-surface: #1d1b1a;
+  --color-on-surface-variant: #554336;
+  --color-surface-container: #f2edea;
+  --color-surface-container-low: #f8f2f0;
+  --color-surface-container-high: #ede7e4;
+  --color-surface-container-highest: #e7e1df;
+  --color-outline-variant: #dbc2b0;
+  --color-tertiary: #705d00;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+}
+
+body {
+  font-family: var(--font-sans);
+}
